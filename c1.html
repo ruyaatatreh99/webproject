@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Hebron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/fontawesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<style>
+    .mySlides {display:none;}
+
+    #container {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -200px;
+    }
+    #push_footer {
+        height: 200px;
+    }
+    footer {
+        height: 200px;
+        background: white;
+        width: 100%;
+    }
+    a,a:hover{color:#6c757d;text-decoration: none;}
+    #nav{border-bottom: 1px solid darksalmon}
+</style>
+</head>
+<div style="background-color:black ;height: 100%">
+<script src="bootstrap/jquery.js"></script>
+<script src="bootstrap/popper.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+    <div class="container-fluid" id="nav">
+        <nav  class="navbar navbar-expand-sm  navbar-dark">
+
+            <a class="navbar-brand" href="Homepage.html"><img src="p/ff.jpg"></a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conect.html">conect us</a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">Event</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="event.html">Event</a>
+                        <a class="dropdown-item" href="Trail.html">Trails </a>
+
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="city.html" id="navbardrop" data-toggle="dropdown">Places</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="city.html">City</a>
+                        <a class="dropdown-item" target="_blank" href="ResturantOfPalestine/BookBlock/index.html">Resturant</a>
+
+                        <a class="dropdown-item" href="hotel.html">Hotel</a>
+                    </div>
+                </li>
+
+                <li style="margin-left:800px;border:1px solid white"class="nav-item">
+                    <a class="nav-link" href="log.php">Login</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+<h2 class="w3-center" style="font-family: 'Kristen ITC';text-align: center; color:darksalmon ;font-size: xx-large">WELCOME TO Hebron</h2>
+
+<script type="text/javascript">
+    var picPaths = ['p/ch1.jpg','p/ch2.jpg','p/ch4.jpg','p/ch3.jpg','p/ch5.png','p/ch6.png','p/ch7.png','p/ch8.png','p/ch9.png','p/ch10.png'];
+    var curPic = -1;
+    //preload the images for smooth animation
+    var imgO = new Array();
+    for(i=0; i!=picPaths.length; i++) {
+        imgO[i] = new Image();
+        imgO[i].src = picPaths[i];
+    }
+
+    function swapImage() {
+        curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+        imgCont.src = imgO[curPic].src;
+        setTimeout(swapImage,2000);
+    }
+
+    window.onload=function() {
+        imgCont = document.getElementById('imgBanner');
+        swapImage();
+    }
+</script>
+
+<div>
+    <img id="imgBanner" src="p/ch2.jpg" alt="gh" width="100%" height="505px "border="2px" />
+</div>
+
+    <div class="container">
+
+<nav class="sLift" style="color:dodgerblue" >
+
+    <ul style="padding: 0px ;list-style-type: none;">
+        <li style="float:left ; padding: 2px ;padding-left: 180px" ><a > </a></li>
+        <li style="float:left ; padding: 2px ;padding-left:50px" ><a href="#sss"> About Hebron</a></li>
+        <li style="float:left ; padding: 2px;padding-left: 50px"><a href="#bb"> Location</a></li>
+        <li style="float:left ; padding: 2px;padding-left: 50px"><a href="#ddd">Villages</a></li>
+
+        <li style="float:left ; padding: 2px;padding-left:50px"><a href="#aaa">Important Visits To  Hebron</a></li>
+    </ul><br>
+</nav><br>
+
+<bre id="sss" style="color: darksalmon;font-family: 'Kristen ITC';left: 500px;font-weight: bolder;font-size: xx-large"><b>
+    Hebron</b></bre><br>
+<p style="color: white; font-family: 'Kristen ITC';padding-left: 10px">
+    city located in the southern West Bank, 30 km (19 mi) south of Jerusalem. Nestled in the Judaean Mountains, it lies 930 meters (3,050 ft) above sea level.
+   </p>
+<img src="p/old.jpg" width="500px" height="270px" style="float: right" right="10px">
+
+
+<p id="bb" style="font-family: 'Kristen ITC' ; color: white"><h1   style="font-family: 'Kristen ITC';color:darksalmon"><b>Location</b></h1>
+<p style="color: white">  A beautiful and fertile village, Halhoul lies five kilometers north of Hebron and marks the highest inhabited location in Palestine (1,000 meters above sea level). Abundant vineyards dot the area, producing Hebron’s renowned grapes. The mosque of Nabi Yunis lies just outside the town. According to Muslim tradition, the mosque was built over the grave of the Prophet Jonah.
+</p>
+
+
+<p id="ddd" style="font-family: 'Kristen ITC' ; color: white"><h1   style="font-family: 'Kristen ITC';color:darksalmon"><b>HALHOUL</b></h1>
+<p style="color: white">  A beautiful and fertile village, Halhoul lies five kilometers north of Hebron and marks the highest inhabited location in Palestine (1,000 meters above sea level). Abundant vineyards dot the area, producing Hebron’s renowned grapes. The mosque of Nabi Yunis lies just outside the town. According to Muslim tradition, the mosque was built over the grave of the Prophet Jonah.
+</p>
+
+
+<p id="aaa" style="font-family: 'Kristen ITC' ;  font-size: xx-large;font-weight:bolder;color:darksalmon">The Old Town of Hebron</p>
+<p style="color: white;font-family: 'Kristen ITC'">
+    The old town of Hebron is located in the southeast corner of the modern city of Hebron, with Al-Haram al-Ibrahimi
+    (Ibrahimi Mosque) at its center. During the early Islamic Period, the center of town moved from Tell Rumeideh to
+    the vicinity of Al-Haram al-Ibrahimi. In 1099, it was conquered by the Crusaders, and in 1187, it was liberated by
+    Saladin, who encouraged his army, consisting of Turks, Kurds, Turkmen, Moroccans, and local Arabs, to settle in Hebron/Al-Khalil. The city was separated into quarters along ethnic, religious and professional divisions. The town thrived during the Mamluk period and became an important cultural and religious hub. The urban fabric of the old town was concentrated in the vicinity of Al-Haram al-Ibrahimi, encompassing a diversified social and architectural conglomerate of quarters, alleys, ahwash (sing. hosh)
+    or courtyards, suqs or markets, khans or inns, mosques, schools and zawayas (sing. zawiya).</p>
+
+
+<img src="p/ch1.jpg" style="float: right;width: 400px">
+<p id="sss" style="font-family: 'Kristen ITC' ;  font-size: xx-large;font-weight:bolder;color:darksalmon">AL-Haram AL-Ibrahimi/AL-Ibrahimi Mosque </p>
+<p style="color: white;font-family: 'Kristen ITC'">Al-Haram al-Ibrahimi is located at the southeast corner of modern Hebron and in the heart of its old town. It is considered the fourth holiest site in Islam and the second holiest site in Palestine. Historical evidence suggests that the Prophet Ibrahim/Abraham resided in Hebron approximately four thousand years ago. He chose Hebron as a burial place for his wife Sarah, and later for himself, his son Isaac, his grandson Jacob and their wives. According to some sources, it also houses the tomb of Joseph.
+
+    Al-Ibrahimi Mosque was built within an enclosure originally constructed by Herod the Great, who ruled over Palestine
+    during the early Roman period (37–4 BC). It is built of large drafted ashlars (the largest is 7.5 x 1.4 meters) and is
+    15 meters high. During the Byzantine period, a church was probably built inside the enclosure and later destroyed during
+    the Persian invasion of Palestine in 614 AD. In the Early Islamic period, a mosque was built inside the enclosure. Under
+    Islamic rule, Al-Ibrahimi Mosque was given special attention, and the cenotaphs of the prophets were constructed and richly
+    decorated with green tapestries embroidered with Qur’anic verses and other pious inscriptions. During this period, Hebron
+    became the fourth holiest city in the Islamic world and a spiritual terminal for pilgrims and tourists worldwide. Successive Arab Muslim rulers,
+    scholars and visitors glorified and sanctified Al-Ibrahimi Mosque in the city of Hebron.</p><div id="push_footer"></div>
+<footer style="background-color:black;margin-bottom: 40px;">
+
+    <img src="p/map1.png"   style=" height: 100%; width:100%;">
+</footer>
+
+</div>
+</bre>
+
+
+
+    <div style=" margin-top: 10px;margin-bottom: 0;background-color:#111111;">
+
+        <div style="color:#6c757d;list-style-type:none;" class="container ">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div  class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">General Information</h2>
+                        <p>palestine at a Glance Getting Around Just the Facts Values & Tradition Visas To palestine .</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li ><a href="conect.html"><i  class="fab fa-facebook"></i></a></li>
+                            <li><a href="conect.html"><i class="fab fa-google-plus"></i></a></li>
+                            <li><a href="conect.html"><i class="fab fa-youtube"></i></a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">What Yo Do</h2>
+                        <ul  class="list-unstyled">
+                            <li><a href="culture.html" class="py-2 d-block">History & Culture</a></li>
+                            <li><a href="event.html" class="py-2 d-block">Fun & Adventure</a></li>
+                            <li><a href="Trail.html" class="py-2 d-block"> Nature</a></li>
+                            <li><a href="event.html" class="py-2 d-block">Events</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Visitor Toolbar</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="city.html" class="py-2 d-block">Palestine Map</a></li>
+                            <li><a href="Homepage.html#inf" class="py-2 d-block">Language</a></li>
+                            <li><a href="hotel.html" class="py-2 d-block">Hotels</a></li>
+                            <li><a href="ResturantOfPalestine/BookBlock/index.html" class="py-2 d-block">Resturant</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul style="list-style-type:none;">
+                                <li><a href="conect.html"><i class="fa fa-map-marker " aria-hidden="true"></i> Sufean St., Nabuls,Palestine</a></li>
+                                <li><a href="conect.html"><i class="fas fa-phone"></i><span class="text"> +2 392 3929 210</span></a></li>
+                                <li><a href="conect.html"><i class="far fa-envelope"></i><span class="text"> WToPalestine@gmail.com</span></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style>
+        body{background-color: black;
+        color: whitesmoke;}
+        a,a:hover{color:#6c757d;text-decoration: none;}
+        #nav{border-bottom: 1px solid darksalmon}
+        span{
+            font-size:15px;
+        }
+
+        .box{
+            padding:60px 0px;
+        }
+
+        .box-part{
+            background:#FFF;
+            border-radius:0;
+            padding:60px 10px;
+            margin:30px 0px;
+        }
+
+        .text{
+            margin:20px 0px;
+        }
+        .ctitle_row{
+            text-align:center;
+            margin: 10px 0;
+        }
+        .stitle{
+            color:#373435;
+        }
+
+        .stitle:hover{
+            color:#d17536 !important;
+        }
+        .stext{
+            color:#FFF;
+        }
+
+        a.stext:hover{
+            color:#373435;
+        }
+
+
+
+        .city_thumb{
+            height: 450px;
+            overflow: hidden;
+        }
+        .city_thumb img{
+            width:100%;
+        }
+
+        .sight_div .event_border:after {
+            top: -15px;
+        }
+
+        .city_items .event-title h3{
+            font-size: 20px;
+        }
+
+        .city_items .event-excerpt p{
+            font-size: 1.0rem;
+        }
+
+        .event-title a{
+            color:#373435
+        }
+
+        .event-title a:hover{
+            color:#bd473f
+        }
+
+        .event_thumb{
+            /*height: 265px;*/
+            height: 240px;
+            overflow: hidden;
+            position: relative;
+            margin:0 auto;
+        }
+        .event_thumb img{
+            /*min-height: 265px;*/
+            position: absolute;
+            bottom: 0;
+        }
+        .local_speciality_lbl{
+            position: absolute;
+            top: 250px;
+            right: 0;
+            font-size: 14px;
+            background: #bc1e1b;
+            color:#FFF;
+            padding: 5px;
+        }
+        img:hover{
+            border-bottom: 4px solid darksalmon;
+        }
+
+
+    </style>
+</head>
+<body >
+<script src="bootstrap/jquery.js"></script>
+<script src="bootstrap/popper.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+
+<script>
+
+
+
+</script>
+<div class="container-fluid" id="nav">
+    <nav  class="navbar navbar-expand-sm  navbar-dark">
+
+        <a class="navbar-brand" href="Homepage.html"><img src="p/ff.jpg"></a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="conect.html">conect us</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">Event</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="event.html">Event</a>
+                    <a class="dropdown-item" href="Trail.html">Trails </a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="city.html" id="navbardrop" data-toggle="dropdown">Places</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="city.html">City</a>
+                    <a class="dropdown-item" target="_blank" href="ResturantOfPalestine/BookBlock/index.html">Resturant</a>
+
+                    <a class="dropdown-item" href="hotel.html">Hotel</a>
+                </div>
+            </li>
+
+            <li style="margin-left:800px;border:1px solid white"class="nav-item">
+                <a class="nav-link" href="log.php">Login</a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+
+
+<br clear="all">
+
+<div class='city_thumb' align=center><img src='http://www.travelpalestine.ps/files/image/1-20181212085826.jpg' class='img-responsive' ></div>
+<div class="container-fluid internal_body">
+    <div class='text'>
+        <p>Palestinian cuisine is varied and rich. The diversity of our landscape reects itself in our cuisine. The Mediterranean coast offers succulent sh, while the inland hills have an olive oil scented gastronomy and the desertic areas cook with thick yogurt-like pastes from goat milk.</p>
+
+    <p>&nbsp;</p>
+
+    </div>
+
+    <div class='sight_div'><div class='event_details item_hover' style='padding:15px;'>
+        <div class='event-title'><h3>Main Dishes</h3></div><div class='event_border'></div>
+    </div>
+        <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick=''>
+    <div class="event-title-wrapper clearfix" style="position:relative;">
+        <div class="event_thumb">
+            <img src='http://www.travelpalestine.ps//files/image/CLOUDY-POMEGRANATE.png' class='img-resposnive' alt='Beverages' >
+        </div>
+        <div class="event_details">
+            <div class="event-title">
+                <h3>Beverages</h3>
+            </div>
+            <div class="event_border"></div>
+        </div>
+    </div>
+    <div class="event-excerpt"><p>Palestine’s rich fruit production offers visitors and locals alike refreshing juices that are sold by street-vendors all over Palestinian cities. In Jericho, have a lemonade, in Nablus have</p></div>
+</div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/150/Snack-foods'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/medjool-dates1.jpg' class='img-resposnive' alt='Snack foods' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>Snack foods</h3>
+                </div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>It is quite typical for an array of nuts, seeds, dates and dried fruits are offered and served by Palestinian hosts and considered a given necessity for guests.
+            Roasted and salted watermelon,</p></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/149/Desserts'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/aBNj0jI.jpg' class='img-resposnive' alt='Desserts' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>Desserts</h3>
+                </div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>The most famous desserts of Palestine as a whole are baklawa, kanafeh, harisseh, ma’amoul and other semolina and wheat pastries. Baklawa is an array of pastries made of thin sheets of unleavened</p></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/148/Palestinian-fast-food'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/meats-shawarma-vendor-no.wikipedia-OneArmedMan-4x3.jpg' class='img-resposnive' alt='Palestinian fast food' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>Palestinian fast food</h3>
+                </div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>Shawarma is a very common sandwich in Palestine. It is mostly served in a long folded roll of shraq bread wrapped around thin slivers of lamb or chicken accompanied by pickled turnips, pickled</p></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/147/Breads'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/piciT8Ivy.jpg' class='img-resposnive' alt='Breads' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>Breads</h3>
+                </div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>Palestinians bake a variety of breads the primary ones are kmaj (round bread), shraq (paper-thin bread), qa’ek (sesame covered bread, most famous in Jerusalem) and taboon (bread cooked on hot</p></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/24/MUJADARA'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/mujadrah.jpg' class='img-resposnive' alt='MUJADARA' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>MUJADARA</h3>
+                </div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>Mujaddara, is a simple yet energy-boosting food of Palestine as well as in the most of the Near- East. The dish combines cooked lentils with rice and finished with onions sauteed in olive oil</p></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/23/MAQLUBA'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/maklobah.jpg' class='img-resposnive' alt='MAQLUBA' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>MAQLUBA</h3>
+                </div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>Maqluba is another popular meal in central Palestine. Maqluba, meaning upside-down is a delicious and spectacular dish when the pot is turned upside-down and the ingredients are displayed on</p></div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 city_items item_hover" style="height:500px;overflow:hidden;margin-bottom:5px;" onclick='window.location=http://www.travelpalestine.ps/en/article/22/MUSAKHAN'>
+        <div class="event-title-wrapper clearfix" style="position:relative;">
+            <div class="event_thumb">
+                <img src='http://www.travelpalestine.ps//files/image/musa5an.jpg' class='img-resposnive' alt='MUSAKHAN' >					</div>
+            <div class="event_details">
+                <div class="event-title">
+                    <h3>MUSAKHAN</h3>
+             						</div>
+                <div class="event_border"></div>
+            </div>
+        </div>
+        <div class="event-excerpt"><p>Musakhan is a common main dish, famous in the olive-covered hilltops of the northern West Bank. On a hot Taboon bread, topped with pieces of cooked onions, sumac, saffron and allspice, sits a</p></div>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div style=" margin-top: 10px;margin-bottom: 0;background-color:#111111;">
+
+    <div style="color:#6c757d;list-style-type:none;" class="container ">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div  class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">General Information</h2>
+                    <p>palestine at a Glance Getting Around Just the Facts Values & Tradition Visas To palestine .</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li ><a href="conect.html"><i  class="fab fa-facebook"></i></a></li>
+                        <li><a href="conect.html"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="conect.html"><i class="fab fa-youtube"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">What Yo Do</h2>
+                    <ul  class="list-unstyled">
+                        <li><a href="culture.html" class="py-2 d-block">History & Culture</a></li>
+                        <li><a href="event.html" class="py-2 d-block">Fun & Adventure</a></li>
+                        <li><a href="Trail.html" class="py-2 d-block"> Nature</a></li>
+                        <li><a href="event.html" class="py-2 d-block">Events</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Visitor Toolbar</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="city.html" class="py-2 d-block">Palestine Map</a></li>
+                        <li><a href="Homepage.html#inf" class="py-2 d-block">Language</a></li>
+                        <li><a href="ResturantOfPalestine/BookBlock/index.html" class="py-2 d-block">Resturant</a></li>
+
+                        <li><a href="hotel.html" class="py-2 d-block">Hotels</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul style="list-style-type:none;">
+                            <li><a href="conect.html"><i class="fa fa-map-marker " aria-hidden="true"></i> Sufean St., Nabuls,Palestine</a></li>
+                            <li><a href="conect.html"><i class="fas fa-phone"></i><span class="text"> +2 392 3929 210</span></a></li>
+                            <li><a href="conect.html"><i class="far fa-envelope"></i><span class="text"> WToPalestine@gmail.com</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="aseelServer">
+    <serverData>
+      <paths name="aseelServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="CitiesOfPalestine" local="$PROJECT_DIR$" web="/CitiesOfPalestine" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

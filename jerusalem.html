@@ -1,0 +1,276 @@
+
+
+
+
+<!DOCTYPE html>
+<html style="height: 100%" xmlns="http://www.w3.org/1999/html">
+<title>YOU HERE IN JERUSALEM !</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="C:\Users\Ru'ya\Downloads\fontawesome-free-5.7.2-web\fontawesome-free-5.7.2-web\css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<style>a:hover{border: 1px solid  darksalmon;
+    border-radius: 4px;background-color: darksalmon; }
+    body{background-color: black;}
+    a{color:#6c757d;text-decoration: none;}
+    #nav{border-bottom: 1px solid darksalmon}
+    .mySlides {display:none;}
+
+    #container {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -200px;
+    }
+    #push_footer {
+        height: 200px;
+    }
+    footer {
+        height: 200px;
+        background: white;
+        width: 100%;
+    }
+</style>
+<body style="background-color:black ;height: 100%">
+<script src="bootstrap/jquery.js"></script>
+<script src="bootstrap/popper.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<div class="container-fluid" id="nav">
+    <nav  class="navbar navbar-expand-sm  navbar-dark">
+
+        <a class="navbar-brand" href="Homepage.html"><img src="p/ff.jpg"></a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="conect.html">conect us</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">Event</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="event.html">Event</a>
+                    <a class="dropdown-item" href="Trail.html">Trails </a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="city.html" id="navbardrop" data-toggle="dropdown">Places</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="city.html">City</a>
+                    <a class="dropdown-item" target="_blank" href="ResturantOfPalestine/BookBlock/index.html">Resturant</a>
+
+                    <a class="dropdown-item" href="hotel.html">Hotel</a>
+                </div>
+            </li>
+
+            <li style="margin-left:800px;border:1px solid white"class="nav-item">
+                <a class="nav-link" href="log.php">Login</a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+<h2 align="center" class="w3-center" style="font-family: 'Kristen ITC'; color:darksalmon ;font-size: xx-large">WELCOME TO JERUSALEM</h2>
+
+
+<script type="text/javascript">
+    var picPaths = ['p/pic/p_jerusalem/slide1.jpg','p/pic/p_jerusalem/slide2.PNG','p/pic/p_jerusalem/slide3.PNG','p/pic/p_jerusalem/slide4.PNG','p/pic/p_jerusalem/slide5.PNG'];
+    var curPic = -1;
+    //preload the images for smooth animation
+    var imgO = new Array();
+    for(i=0; i!=picPaths.length; i++) {
+        imgO[i] = new Image();
+        imgO[i].src = picPaths[i];
+    }
+
+    function swapImage() {
+        curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+        imgCont.src = imgO[curPic].src;
+        setTimeout(swapImage,2000);
+    }
+
+    window.onload=function() {
+        imgCont = document.getElementById('imgBanner');
+        swapImage();
+    }
+</script>
+
+
+
+
+<div>
+    <img id="imgBanner" src="p/pic/p_baitlehem/p1.PNG" alt="gh" width="100%" height="505px "border="2px" />
+</div>
+
+
+
+
+
+
+<nav class="sLift" style="color:dodgerblue" >
+    <ul style="padding: 0px ;list-style-type: none;">
+        <li style="float:left ; padding: 2px ;padding-left: 180px" ><a > </a></li>
+        <li style="float:left ; padding: 2px ;padding-left:50px" ><a href="#sss"> About Jerusalem</a></li>
+        <li style="float:left ; padding: 2px;padding-left: 50px "><a href="#ddd">Districts</a></li>
+        <li style="float:left ; padding: 2px;padding-left: 50px"><a href="#mmm">More about Jerusalem</a></li>
+        <li style="float:left ; padding: 2px;padding-left: 50px"><a href="#rrr">Religion</a></li>
+        <li style="float:left ; padding: 2px;padding-left:50px"><a href="#aaa">amazing places</a></li>
+    </ul><br>
+</nav><br>
+
+<bre id="sss" style="color: darksalmon;font-family: 'Kristen ITC';left: 500px;font-weight: bolder;font-size: xx-large"><b>
+    JERUSALEM</b></bre><br>
+<pre style="color: white; font-family: 'Kristen ITC';padding-left: 10px">
+    is perhaps the only city in the world that is considered historically and spiritually significant to Jews,Christians, and Muslims alike.
+    The city of Jerusalem is known in Arabic as Al-Quds or Baitul-Maqdis("The Noble, Sacred Place"),and the importance of the city to Muslims comes
+    as a surprise to some Christians and Jews.
+
+    Jerusalem is considered to be the cultural, spiritual and national center of the Jewish people and the Jewish state, it is also a holy city to Islam and Christianity
+    and is also one of the oldest cities in the world. The City of Gold, is a fascinatingly unique place where the first century rubs shoulders with the twenty-first century
+    each jostling for legitimacy and space,
+    and where picturesque "old" neighborhoods nestle against glistening office towers and high-rise apartments.
+    It is one of those places which has to be seen to be believed.</pre>
+<bre id="ddd" style="font-family: 'Kristen ITC' ; color: white"><h1   style="font-family: 'Kristen ITC';color:darksalmon"><b>Districts</b></h1>
+    Jerusalem is a large city and it can be divided up into districts:
+    <ul style="list-style-type: circle">
+        <li>The Old City and its Walls form a UNESCO World Heritage Site. This tiny ancient city is home to holy sites for Jews, Christians, and Muslims, and is truly breathtaking.</li>
+        <li >West Jerusalem is the Israeli part of Jerusalem, also known as New Jerusalem; it is the modern commercial heart of the city, having become the focus for development in the city from the time of the creation of the Jaffa-Jerusalem Railway in 1892. To preserve the Old City, the Ottomans would not allow the train to reach its walls, so the Kahn station was located to the west.</li>
+        <li >East Jerusalem is, roughly, the Eastern side of Jerusalem. East Jerusalem is made of territory taken by Israel from Jordan during the Six Day war of 1967. The territory was annexed when the war ended and Israeli law is imposed on it, unlike the West Bank which is considered by Israeli law to be under military rule. Israeli law also considers East Jerusalem to be part of Israel; these claims cause considerable controversy in the international community where they are unrecognized. The city is now home to approximately 200,000 Israeli settlers while most of Jerusalem's Muslim and Christian populations of approximately 250,000 have long lived here.</li>
+        <li>Me'a Shearim is the area of Jerusalem inhabited largely by ultra-Orthodox Jewish people, a place where modest dress is required. The area looks like a 19th century Russian town with largely Yiddish speaking inhabitants.</li>
+        <li>The German Colony is a West Jerusalem neighbourhood southeast of the city centre. It's a wonderful place to drink coffee and to eat in restaurants. You may hear more "Anglos" speaking English than Hebrew on these streets. It is located around Emek Refaim street.</li>
+        <li>Ein Kerem is a (relatively) secluded neighbourhood in West Jerusalem that maintains a village atmosphere. It is surrounded by picturesque hills dotted with olive and cypress trees, home to artists and sculptors who have opened numerous galleries. Several churches are built on the site believed to be the birthplace of John the Baptist. Before 1948, the site was an Arab village called 'Ayn Karim .</li>
+        <border style="border-radius:30%;margin-left: 50px ; padding-left:50px " >  <img alt="Ein-Kerem " src="p/pic/p_jerusalem/Ein-Kerem.jpg"  style="float:right ;"    >
+
+        </border>
+
+    </ul>
+
+
+    <p id="mmm"style="font-family: 'Kristen ITC';color:white"><H1 style="font-family: 'Kristen ITC';color:darksalmon"> More about Jerusalem!</H1>Understand
+    acting as a border city between Israel and Palestine(Bordering the Palestinian cities such as Abu Dis and Ramallah). Jerusalem is considered holy to the three major Abrahamic religions: Judaism, Christianity, and Islam. it is also the cultural, historical and national center of the Jewish and palestinian people. Jerusalem is the third-holiest city in Islam and is also home to a number of significant and ancient Christian landmarks. It is also a city with a very violent past, as it has been severely damaged several times, from the  Roman wars, that ended with the burning of the city, to the 1967 Six Day War.  all religious, and socioeconomic groups are represented here. The walled area of Jerusalem, which until the late nineteenth century formed the entire city, is now called the Old City and became a UNESCO World Heritage Site in 1982. It consists of four ethnic and religious sections — the Armenian, Christian,Muslim , and  Jewish . Barely one square kilometer, the Old City is home to several of Jerusalem's most important and contested religious sites including the Western Wall and Temple Mount for Jews, the Dome of the Rock and al-Aqsa Mosque for Muslims, and the Church of the Holy Sepulchre for Christians.</p>
+</bre>
+
+<p style="font-family: 'Kristen ITC';color:white">
+    Surrounding the Old City are more modern areas of Jerusalem. The civic and cultural center of israel extends from western Jerusalem toward the country's other urban areas to the west, while areas populated by Arabs can be found in the northern, eastern and southern districts.</p>
+<p style="font-family: 'Kristen ITC';color:white">Archaeological findings prove the existence of development within present-day Jerusalem as far back as the 4th millennium BCE, but the earliest written records of the city come in the Execration Texts (c. 19th century BCE) and the Amarna letters (c. 14th century BCE). According to Biblical accounts, the Jebusites, a Canaanite tribe, inhabited the area around the present-day city (under the name Jebus) until the late 11th century BCE. At that point (c. 1000s BCE), the Israelites, led by King David, invaded and conquered the city, expanding it southwards and establishing it as the capital of the United Kingdom of Israel and Judah (the United Monarchy). It was renamed at this time as Yerushalayim (Jerusalem), a name by which it is still referred to today.</p>
+<bre id="rrr" style="font-family: 'Kristen ITC';color:white"><H1 style="font-family: 'Kristen ITC';color:darksalmon">Religion</H1>
+    Jerusalem is considered home by large numbers of adherents to three of the four Middle Eastern monotheistic faiths: Judaism, Christianity, and Islam. Adherents of these faiths have tended historically to congregate in various neighborhoods of the city, with considerable overlap.</bre>
+
+
+<p id="aaa" style="font-family: 'Kristen ITC';color: white ; ">Jerusalem has an<span style=" font-size: xx-large;font-weight:bolder;color:darksalmon"> amazing</span> array of attractions for the traveler to see:-</p>
+<ul style="list-style-type: square ;color: white">
+    <li> <span style="color: deepskyblue"> Mar Elias Monastery </span>- Greek Orthodox Monastery that built over the tomb of the Greek Orthodox Bishop of Jerusalem called Elias, Bethlehem and Beit Jala residents used to come everey year to visit his tomb for centuries. another tradition says that Prophet Elijah (Elias) used to rest there when he escaped from Jezebel.</li>
+    <li><span style="color: deepskyblue"> Tantur theological center </span> - a Christian theological center in Southern Jerusalem, opened for all the variation of Christianity.</li>
+    <li><span style="color: deepskyblue">St. Simeon monastery</span> is a Greek Orthodox monastery (originally Crusader) in the neighborhood of Katamon, built over what believed to be the house and even the burial place of St. Simeon (Gospel of Luke)</li>
+    <li><span style="color: deepskyblue">Ramat Rachel archaeological site</span> is an archaeological site dates back from biblical times to first century BC</li>
+    <li><span style="color: deepskyblue">Monastery of the Cross</span> - a Greek Orthodox monastery surrounded by walls (the current monastery was built in the crusader period on the remains of the 4th monastery), according to the Christian tradition, the monastery built over the site of the trees that Jesus's Cross made from. Only 4 monks living there today</li>
+    <li><span style="color: deepskyblue">The Israel Museum </span> is the largest museum in Israel. The Museum contains the "shrine of the book" where the dead sea scrolls are kept. It also has a large scale model of Jerusalem in ancient times. It has large archeology and art sections that were renovationed and reopened in 2010. </li>
+    <li><span style="color: deepskyblue">Yad Vashem</span> is Israel's Holocaust museum.</li>
+    <li><span style="color: deepskyblue">The Garden Tomb </span> on Nablus Road, East Jerusalem marks what many believe is the location of Calvary and the tomb of Jesus. The tomb is located in a lush big garden which is a good break away from the hustle and bustle of East Jerusalem.</li>
+    <li><span style="color: deepskyblue">The Palestinian heritage museum</span></li> is within the American Colony complex in East Jerusalem. Located in a 200-years-old Palestinian building, the museum hosts permanent and temporary exhibitions on Palestinian culture, folklore and history. The permanent exhibition include a room dedicated to the Palestinian Nakba, a floor dedicated to traditional Palestinian dresses and Jewelery, as well as a laboratory for the restoration of old artifacts.
+    <li><span style="color: deepskyblue">Old City</span> — the atmospheric historical core of Jerusalem surrounded by Ottoman period walls, filled with sites of massive religious significance and a bustling approach to life. </li>
+    <div><img src="p/pic/p_jerusalem/knesaalqeamah.jpg"  height="300px" style="float: right" ></div>
+    <li><span style="color: deepskyblue">The Church of the Holy Sepulchre</span>  is the end of the Via Dolorosa (Way of the sorrows) in the Christian quarter of the Old City. It is the most holy Christian spot in the world. The first church on the site was built by Queen Helena, mother of the emperor Constantine, the Holy Sepulchre is Jerusalem's number 1 site for Christian pilgrims and is consequently horribly crowded. Expect to queue for an hour or more to enter the tiny tomb chamber.</li>
+
+    <li><span style="color: deepskyblue">Al-Aqsa Mosque</span> is the point from where the prophet of Islam, Mohammad (PBUH), ascended to heaven.</li>
+    <div><img src="p/pic/p_jerusalem/quds.PNG" height="300px" style="float:left" ></div>
+    <li><span style="color: deepskyblue">Qubbat Al-Sakhra (Dome of the Rock)</span> - located in the middle of the sanctuary opposite of the Al-Aqsa Mosque, is probably the most known landmark of Jerusalem with its golden dome and octagonal blue walls that are adorned with Arabic calligraphy of Koranic verses.  The Dome of the Rock is also labelled the most amazing Islamic building in the world.</li>
+
+    <li><span style="color: deepskyblue">The Jewish quarter</span> in the Old City was completely re-built in 1969 after the 1967 Arab-Israeli War. It still holds many ancient masterpieces such as the Cardo (700 BC), Burnt House (70 AD), and Western Wailing Wall (50 BC). All of which are among the most holy Jewish sites in the world. Definitely worth a visit, especially the western wall. The Jewish Quarter also includes The Western Wall Tunnel and the archaeological park at Davidson Centre (the Ophel). Also interesting are The Hurba Synagogue and The Herodian Quarter.</li>
+
+
+
+    <li><span style="color: deepskyblue">Via Dolorosa</span>  - passing through Bethesda (crusader church and Roman excavations), Franciscan Archaeological Museum and Les Seurs de Sion Monastery with its underground Roman Street.</li>
+    <li><span style="color: deepskyblue"> Damascus Gate</span> is the most elaborate one. The vegetable market borders it. It is also near Jaafar - Jerusalem most renowned sweets store.</li>
+    <video width="550" height="300" controls style="float: right">
+        <source src="jerusalem.mp4" type="video/mp4">
+
+    </video>
+    <li><span style="color: deepskyblue">Lady Tunshuq Palace and Tomb</span> </li>
+    <li><span style="color: deepskyblue">Syriac Church, Maronite Church</span> </li>
+    <li><span style="color: deepskyblue">The Armenian Cathedral and Museum</span> </li>
+    <li><span style="color: deepskyblue">The Indian Hospice, The Austrian Hospice, The Armenian Hospice</span> </li>
+    <li><span style="color: deepskyblue">The Tower of David</span>  (Citadel) at Jaffa Gate, the museum of town history</li>
+    <li><span style="color: deepskyblue">Murestan Square with the Lutheran Church of the Redeemer</span> </li>
+    <li><span style="color: deepskyblue">Mount of Olives</span>  with numerous monuments including: Kidron Valley Monuments [BEWARE 'helpful locals scam' at the southern end of Kindron valley where the steps up the hill to the City of David is. , Maria's Tomb, The Ascension Chapel, Domini Flevit Church, Church of All Nations, Tombs of the Prophets, Jewish Cemetery, Pater Noster Church, The Muscoviya, The Tomb of Lazarus (in Al Eizariya village at the south-eastern slope of the Mount of Olives)</li>
+    <li><span style="color: deepskyblue"> Zion Mountain</span> with several monuments including: Hagia Maria Sion Abbey (Dormision Church), Schindler's Tomb, Chamber of the Holocaust (Martef HaShoah), David's Tomb and Room of the Last Supper</li>
+</ul>
+<div id="container">
+
+</div>
+<div style=" margin-top: 10px;margin-bottom: 0;background-color:#111111;">
+
+    <div style="color:#6c757d;list-style-type:none;" class="container ">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div  class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">General Information</h2>
+                    <p>palestine at a Glance Getting Around Just the Facts Values & Tradition Visas To palestine .</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li ><a href="conect.html"><i  class="fab fa-facebook"></i></a></li>
+                        <li><a href="conect.html"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="conect.html"><i class="fab fa-youtube"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">What Yo Do</h2>
+                    <ul  class="list-unstyled">
+                        <li><a href="culture.html" class="py-2 d-block">History & Culture</a></li>
+                        <li><a href="event.html" class="py-2 d-block">Fun & Adventure</a></li>
+                        <li><a href="Trail.html" class="py-2 d-block"> Nature</a></li>
+                        <li><a href="event.html" class="py-2 d-block">Events</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Visitor Toolbar</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="city.html" class="py-2 d-block">Palestine Map</a></li>
+                        <li><a href="Homepage.html#inf" class="py-2 d-block">Language</a></li>
+                       <li><a href="ResturantOfPalestine/BookBlock/index.html" class="py-2 d-block">Resturant</a></li>
+                        <li><a href="hotel.html" class="py-2 d-block">Hotels</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul style="list-style-type:none;">
+                            <li><a href="conect.html"><i class="fa fa-map-marker " aria-hidden="true"></i> Sufean St., Nabuls,Palestine</a></li>
+                            <li><a href="conect.html"><i class="fas fa-phone"></i><span class="text"> +2 392 3929 210</span></a></li>
+                            <li><a href="conect.html"><i class="far fa-envelope"></i><span class="text"> WToPalestine@gmail.com</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div></div>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Nablus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/fontawesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style>
+        .mySlides {display:none;}
+
+        #container {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto -200px;
+        }
+        #push_footer {
+            height: 200px;
+        }
+        footer {
+            height: 200px;
+            background: white;
+            width: 100%;
+        }
+        a,a:hover{color:#6c757d;text-decoration: none;}
+        #nav{border-bottom: 1px solid darksalmon}
+    </style>
+</head>
+<body style="background-color:black ;height: 100%">
+<script src="bootstrap/jquery.js"></script>
+<script src="bootstrap/popper.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<div class="container-fluid" id="nav">
+    <nav  class="navbar navbar-expand-sm  navbar-dark">
+
+        <a class="navbar-brand" href="Homepage.html"><img src="p/ff.jpg"></a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="conect.html">conect us</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">Event</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="event.html">Event</a>
+                    <a class="dropdown-item" href="Trail.html">Trails </a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="city.html" id="navbardrop" data-toggle="dropdown">Places</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="city.html">City</a>
+                    <a class="dropdown-item" target="_blank" href="ResturantOfPalestine/BookBlock/index.html">Resturant</a>
+
+                    <a class="dropdown-item" href="hotel.html">Hotel</a>
+                </div>
+            </li>
+
+            <li style="margin-left:800px;border:1px solid white"class="nav-item">
+                <a class="nav-link" href="log.php">Login</a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+<h2 class="w3-center" style="font-family: 'Kristen ITC';text-align: center; color:darksalmon ;font-size: xx-large">WELCOME TO Hebron</h2>
+
+<script type="text/javascript">
+    var picPaths = ['p/n1.png','p/n2.png','p/n3.png','p/n4.png','p/n5.png','p/n6.png','p/n7.png','p/n8.png','p/n9.png','p/n10.png'];
+    var curPic = -1;
+    //preload the images for smooth animation
+    var imgO = new Array();
+    for(i=0; i!=picPaths.length; i++) {
+        imgO[i] = new Image();
+        imgO[i].src = picPaths[i];
+    }
+
+    function swapImage() {
+        curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+        imgCont.src = imgO[curPic].src;
+        setTimeout(swapImage,2000);
+    }
+
+    window.onload=function() {
+        imgCont = document.getElementById('imgBanner');
+        swapImage();
+    }
+</script>
+
+
+
+
+<div>
+    <img id="imgBanner" src="p/ch2.jpg" alt="gh" width="100%" height="505px "border="2px" />
+</div>
+
+
+
+<div class="container">
+
+    <nav class="sLift" style="color:dodgerblue" >
+
+        <ul style="padding: 0px ;list-style-type: none;">
+            <li style="float:left ; padding: 2px ;padding-left: 180px" ><a > </a></li>
+            <li style="float:left ; padding: 2px ;padding-left:50px" ><a href="#sss"> About Nablus</a></li>
+            <li style="float:left ; padding: 2px;padding-left: 50px"><a href="#bb"> Location</a></li>
+            <li style="float:left ; padding: 2px;padding-left: 50px"><a href="#ddd">Villages</a></li>
+
+            <li style="float:left ; padding: 2px;padding-left:50px"><a href="#aaa">Important Visits To  Nablus</a></li>
+        </ul><br>
+    </nav><br>
+
+    <bre id="sss" style="color: darksalmon;font-family: 'Kristen ITC';left: 500px;font-weight: bolder;font-size: xx-large"><b>
+        Nablus</b></bre><br>
+    <p style="color: white; font-family: 'Kristen ITC';padding-left: 10px">
+        Neapolis, the new city, was founded by the Roman Emperor Vespasian in 72 AD. It was built on the northern slope of Mount Gerizim, around two kilometers west of Tell Balata. It has been identified as the Canaanite town of Shechem and was mentioned in several ancient sources. It was inhabited during the Chalcolithic, Bronze, Iron and Hellenistic ages.
+
+        The Roman city of Nablus was marked on the Madaba mosaic map as early as the sixth century AD. Over the years, the original Greek name, Neapolis, was Arabicized into the city’s modern name, Nablus. It was printed on the first city coins issued during the reign of Domitian and Marcus Aurelius. The city developed into a major center in the second century AD. Major building projects were launched, including the hippodrome, the theatre, and other public buildings. A Roman temple dedicated to Zeus was erected on Mount Gerizim during the reign of Antoninus Pius. During the reign of Philip the Arab, the city of Neapolis was raised to the status of a Roman colony: Colonia Flavia Iulia Sergia Neapolis. </p>
+    <img src="p/s.jpg" width="500px" height="270px" style="float: right" right="10px">
+
+
+    <p id="bb" style="font-family: 'Kristen ITC' ; color: white"><h1   style="font-family: 'Kristen ITC';color:darksalmon"><b>Location</b></h1>
+    <p style="color: white"> ( Νeapolis) is a city in the northern West Bank, approximately 49 kilometers (30 mi) north of Jerusalem,[1] (approximately 63 kilometers (39 mi) by road), with a population of 126,132.[2] Located between Mount Ebal and Mount Gerizim, it is the capital of the Nablus Governorate and a Palestinian commercial and cultural center, containing the An-Najah National University, one of the largest Palestinian institutions of higher learning, and the Palestinian stock-exchange.[</p>
+
+
+    <p id="ddd" style="font-family: 'Kristen ITC' ; color: white"><h1   style="font-family: 'Kristen ITC';color:darksalmon"><b>SEBASTIA</b></h1>
+    <p style="color: white"> Sebastia (Sabastiya) is located around ten kilometers northwest of Nablus at the junction of two main historical routes, the northern Nablus-Jenin route and the western route from the Jordan Valley to the Mediterranean coast. The site offers a magnificent view of the surrounding farmland.
+
+        Sebastia was a regional capital during the second Iron Age and a major urban center during the Hellenistic-Roman period. It is one of the oldest continuously inhabited places in Palestine and remains known by its ancient name, indicating a strong element of cultural continuity. Christian and Islamic traditions place the tomb of John the Baptist here.
+
+        A series of excavations were carried out at the site, the first conducted between 1908 and 1910 by Harvard University. The most recent was carried out by the Palestinian Department of Antiquities in 1994, and uncovered part of an Iron Age city, including a royal palace complex and a central courtyard. One of the major discoveries was an ivory collection from the eighth and ninth centuries BC.</p>
+<p style="color: white">The present town of Sebastia, including the archaeological remains, the historical town, and the cultural landscape, is one of Palestine’s major tourist attractions. A series of restoration activities was carried out in the historic core, including renovation of the mosque, the shrine of Nabi Yahyia, the Cathedral of John the Baptist, the Roman mausoleum, the olive press, Kayed Palace, and the traditional buildings, along with a walking trail. </p>
+
+    <p id="aaa" style="font-family: 'Kristen ITC' ;  font-size: xx-large;font-weight:bolder;color:darksalmon">MOUNT GERIZIM</p>
+    <p style="color: white;font-family: 'Kristen ITC'">
+        Mount Gerizim, or Jebel at-Tor, is the sacred mountain of the Samaritans and has been so for thousands of years. It consists of three peaks: the main summit, a wide flat western hill, and Tell ar-Ras to the north. It has been traditionally identified as the sacred mountain upon which a blessing was delivered by divine decree, a claim which, in Samaritan belief, overrides that of the rival Temple of Jerusalem. On the summit is a rock that the Samaritans believe was the place where Abraham was about to sacrifice his son Isaac.
+
+        The Samaritans, now a small Palestinian community of only a few hundred people, believe that the temple on the mountaintop was the first temple built by Yosha’ Bin Noun in the Holy Land. Archaeologically, the temple discovered on the summit existed before the second century BC.</p>
+
+
+    <img src="p/to.jpg" style="float: right;width: 400px">
+    <p id="sss" style="font-family: 'Kristen ITC' ;  font-size: xx-large;font-weight:bolder;color:darksalmon">JOSEPH’S TOMB</p>
+    <p style="color: white;font-family: 'Kristen ITC'">Al-Haram al-Ibrahimi is located at the southeast corner of modern Hebron and in the heart of its old town. It is considered the fourth holiest site in Islam and the second holiest site in Palestine. Historical evidence suggests that the Prophet Ibrahim/Abraham resided in Hebron approximately four thousand years ago. He chose Hebron as a burial place for his wife Sarah, and later for himself, his son Isaac, his grandson Jacob and their wives. According to some sources, it also houses the tomb of Joseph.
+
+        A little to the north of Jacob’s Well is the traditional site of Joseph’s tomb. An Ottoman building with a white dome marks the site.</p><div id="push_footer"></div>
+    <footer style="margin-bottom: 50px">
+
+        <img src="p/map2.png"   style="height: 100% ;width: 100% ;float: right">
+    </footer>
+</div>
+</bre>
+
+
+
+
+
+
+
+<div style=" margin-top: 10px;margin-bottom: 0;background-color:#111111;">
+
+    <div style="color:#6c757d;list-style-type:none;" class="container ">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div  class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">General Information</h2>
+                    <p>palestine at a Glance Getting Around Just the Facts Values & Tradition Visas To palestine .</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li ><a href="conect.html"><i  class="fab fa-facebook"></i></a></li>
+                        <li><a href="conect.html"><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="conect.html"><i class="fab fa-youtube"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">What Yo Do</h2>
+                    <ul  class="list-unstyled">
+                        <li><a href="culture.html" class="py-2 d-block">History & Culture</a></li>
+                        <li><a href="event.html" class="py-2 d-block">Fun & Adventure</a></li>
+                        <li><a href="Trail.html" class="py-2 d-block"> Nature</a></li>
+                        <li><a href="event.html" class="py-2 d-block">Events</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Visitor Toolbar</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="city.html" class="py-2 d-block">Palestine Map</a></li>
+                        <li><a href="Homepage.html#inf" class="py-2 d-block">Language</a></li>
+                        <li><a href="hotel.html" class="py-2 d-block">Hotels</a></li>
+                        <li><a href="ResturantOfPalestine/BookBlock/index.html" class="py-2 d-block">Resturant</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul style="list-style-type:none;">
+                            <li><a href="conect.html"><i class="fa fa-map-marker " aria-hidden="true"></i> Sufean St., Nabuls,Palestine</a></li>
+                            <li><a href="conect.html"><i class="fas fa-phone"></i><span class="text"> +2 392 3929 210</span></a></li>
+                            <li><a href="conect.html"><i class="far fa-envelope"></i><span class="text"> WToPalestine@gmail.com</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div></div>
+</body>
+</html>
